@@ -19,13 +19,13 @@ function App() {
   };
   return (
     <div id="wrapper" className="container App-header">
-      <div id="quote-box" className="card text-center" style={{"width": "50vw"}}>
+      <div id="quote-box" className="card text-center" style={{ "width": "50vw" }}>
         <div className="card-body">
           <div id="text" className="card-text" style={{ "opacity": 1, "fontSize": "calc(20px + 2vmin)" }} >
             <i className="fa fa-quote-left"></i> {data.content}
           </div>
           <div className="quote-author">
-            <span id="author"  className="card-text" style={{ "opacity": 1, "fontSize": "1em", "float": "right" }}>- {data.author}</span>
+            <span id="author" className="card-text" style={{ "opacity": 1, "fontSize": "1em", "float": "right" }}>- {data.author}</span>
           </div>
           <div style={{ "margin": "5vh" }}>
             <span style={{ "float": "left" }}>
